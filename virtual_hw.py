@@ -3,7 +3,6 @@ import json
 import psutil
 import paho.mqtt.client as mqtt
 import paho.mqtt.publish as publish
-import pprint
 
 # The callback for when the client receives a CONNACK response from the server.
 def on_connect(client, userdata, flags, rc):
@@ -51,8 +50,7 @@ if __name__ == "__main__":
         }
 
         publish.single("bakecode", json.dumps(packet), hostname="127.0.0.1")
-        
-        
+                
         time.sleep(1)
 
 
