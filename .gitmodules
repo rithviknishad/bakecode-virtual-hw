@@ -1,6 +1,3 @@
-[submodule "bsi-dart"]
-	path = bsi-dart
-	url = https://github.com/crysalisdevs/bsi-dart.git
 [submodule "bakecode-hardware-dart"]
 	path = bakecode-hardware-dart
 	url = git@github.com:crysalisdevs/bakecode-hardware-dart.git
